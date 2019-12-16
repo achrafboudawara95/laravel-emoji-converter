@@ -1,0 +1,30 @@
+{
+    "name": "achraf/laravel-emoji-converter",
+    "description": "Laravel library to convert Emoji(ios 6,7,8,9,OS X,Android) to unicode",
+    "keywords": ["laravel", "emoji", "ios", "android"],
+    "require": {
+        "php": ">=5",
+        "illuminate/support": "5.6.*|5.7.*|5.8.*|^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Achraf Boudawara",
+            "email": "achrafboudawarafseg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Achraf\\laravelEmojiConverter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Achraf\\laravelEmojiConverter\\LaravelEmojiConverterServiceProvider"
+            ]
+        }
+    }
+}
